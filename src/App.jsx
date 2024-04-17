@@ -108,7 +108,10 @@ function App() {
             </ul>
           </div>
           <div className="img-card">
-            <img src="./public/imgs/foto-perfil.jpg" alt="foto guilherme" />
+            <img
+              src="/Meu-Portifolio/imgs/foto-perfil.jpg"
+              alt="foto guilherme"
+            />
           </div>
           <div className="card-info">
             <p>
@@ -175,7 +178,7 @@ function App() {
         <div className="projetos" id="Projetos">
           <CardProject
             info="O intuito do projeto foi desenvolver site SPA que seria um gestor de stock com rect utilizando o react-router-dom."
-            img="/imgs/projeto-stockReact.png"
+            img="/Meu-Portifolio/public/imgs/projeto-stockReact.png"
             tecnologias={[
               <DiHtml5 color="#f16524" title="HTML5" />,
               <DiCss3 color="#238aed" title="CSS3" />,
