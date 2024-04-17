@@ -108,7 +108,7 @@ function App() {
             </ul>
           </div>
           <div className="img-card">
-            <img src="/imgs/foto-perfil.jpg" alt="foto guilherme" />
+            <img src="./public/imgs/foto-perfil.jpg" alt="foto guilherme" />
           </div>
           <div className="card-info">
             <p>
