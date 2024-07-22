@@ -191,14 +191,13 @@
         width: 100%;
         height: 100%;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         object-fit: cover;
-        object-position: top;
+        object-position: center;
         border-bottom: 0.5rem solid rgb(rgb(0, 0, 0), 1);
         border-top: 0.5rem solid rgb(rgb(147, 144, 144), 1);
         border-left: 0.5rem solid rgb(rgb(147, 144, 144), 1);
         border-right: 0.5rem solid rgb(rgb(0, 0, 0), 1);
+        filter: brightness(105%) contrast(115%) saturate(120%);
       }
     }
     .card-info {

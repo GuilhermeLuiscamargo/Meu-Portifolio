@@ -165,7 +165,7 @@ function App() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/guilherme-luis-camargo-neto-49a40b2b1/?originalSubdomain=br"
+                  href="https://drive.google.com/drive/folders/15_ZX4SBK0w4_SHlpDZ9gLNGK__OoR6PA?usp=drive_link"
                   target="blank"
                   title=" Meu Curriculo"
                 >
