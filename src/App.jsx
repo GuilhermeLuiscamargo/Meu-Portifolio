@@ -14,7 +14,9 @@ import {
   SiReact,
   SiWhatsapp,
   SiGmail,
+  SiNextdotjs,
 } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
 import CardProject from "./components/CardProject";
 //////////////////////////cores dos icones para o componente cardproject//////////////////////////////////////////////
 /*
@@ -75,6 +77,13 @@ function App() {
                   className="tec-icons icon-type "
                   alt="icone TypeScript"
                   title="TypeScript"
+                />
+              </li>
+              <li>
+                <SiNextdotjs
+                  className="tec-icons icon-next"
+                  alt="icone nextjs"
+                  title="Next JS"
                 />
               </li>
               <li>
@@ -174,7 +183,22 @@ function App() {
         </Tilt>
         <div className="projetos" id="Projetos">
           <CardProject
-            info="O intuito do projeto foi desenvolver site SPA que seria um gestor de stock com rect utilizando o react-router-dom."
+            info={
+              "Foi um Projeto que eu desenvolvi para aprofundar meus conhecimentos no next js e no react"
+            }
+            img={"/Meu-Portifolio/imgs/projeto-ygoApp.jpg"}
+            tecnologias={[
+              <DiHtml5 color="#f16524" title="HTML5" />,
+              <DiCss3 color="#238aed" title="CSS3" />,
+              <BiLogoTypescript color="#2D79C7" title="TypeScript" />,
+              <DiBootstrap color="#8a12fd" title="BootStrap" />,
+              <SiNextdotjs color="#ffffff" title="Next JS" />,
+            ]}
+            linkGit={"https://github.com/GuilhermeLuiscamargo/Ygo-App"}
+            linkSite={"https://ygo-app.vercel.app"}
+          />
+          <CardProject
+            info="O intuito do projeto foi desenvolver site SPA que seria um gestor de stock com react utilizando o react-router-dom."
             img="/Meu-Portifolio/imgs/projeto-stockReact.png"
             tecnologias={[
               <DiHtml5 color="#f16524" title="HTML5" />,

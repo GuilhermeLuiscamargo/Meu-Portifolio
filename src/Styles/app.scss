@@ -161,25 +161,30 @@
           font-size: 1.8rem;
           color: #0000ff;
         }
-        .icon-boot {
+        .icon-next {
           @include corAnimação();
           animation-delay: 0.5s;
+          color: #ffffff;
+        }
+        .icon-boot {
+          @include corAnimação();
+          animation-delay: 0.6s;
           font-size: 2.5rem;
           color: #8a12fd;
         }
         .icon-github {
           @include corAnimação();
-          animation-delay: 0.6s;
+          animation-delay: 0.7s;
           color: #ffffff;
         }
         .icon-git {
           @include corAnimação();
-          animation-delay: 0.7s;
+          animation-delay: 0.8s;
           color: #f44d27;
         }
         .icon-react {
           @include corAnimação();
-          animation-delay: 0.8s;
+          animation-delay: 0.9s;
           color: #61dbfb;
         }
       }
